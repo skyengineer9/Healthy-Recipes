@@ -1,0 +1,34 @@
+/* Apply Helvetica font to all text elements */
+* {
+  font-family: Helvetica;
+}
+
+/* Set the height for the recipe image */
+img {
+  height: 150px;
+}
+
+/* Style for the description text, making it larger */
+.description {
+  font-size: 20px;
+}
+
+/* Bold the total cooking time text */
+#cook-time {
+  font-weight: bold;
+}
+
+/* Style for the list items in the ingredients section, using square bullets */
+.ingredients li {
+  list-style: square;
+}
+
+/* Style for the time text, making it gray */
+p.time {
+  color: gray;
+}
+
+/* Style for the citation link, setting the color to SeaGreen */
+.citation a {
+  color: SeaGreen;
+}
